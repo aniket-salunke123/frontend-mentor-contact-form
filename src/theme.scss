@@ -1,0 +1,27 @@
+// @use '@angular/material' as mat;
+
+// // Include the common styles for Angular Material
+// @include mat.core();
+
+// // Define primary, warn, and neutral palettes
+// $primary-palette: mat.define-palette(mat.$green-palette);
+// $warn-palette: mat.define-palette(mat.$red-palette);
+// $neutral-palette: mat.define-palette((
+//   50: hsl(0, 0%, 100%),    // White
+//   500: hsl(186, 15%, 59%), // Grey 500 (medium)
+//   900: hsl(187, 24%, 22%)  // Grey 900 (darker)
+// ));
+
+// // Create theme object with primary, accent, and warn palettes
+// $theme: mat.define-light-theme((
+//   color: (
+//     primary: $primary-palette,
+//     accent: $neutral-palette,
+//     warn: $warn-palette,
+//   ),
+//   typography: mat.define-typography-config(),
+//   density: 0,
+// ));
+
+// // Include Angular Material theme styles
+// @include mat.all-component-themes($theme);
