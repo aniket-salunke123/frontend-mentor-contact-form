@@ -1,4 +1,5 @@
 .main-container {
+  background-color: hsl(148, 38%, 91%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,12 +9,13 @@
   .form-container {
     padding: 1rem;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
 
     .form-group {
       display: flex;
       width: 100%;
       grid-gap: 5px;
+      margin-bottom: 0.5rem;
 
       mat-form-field {
         width: 100% !important;
